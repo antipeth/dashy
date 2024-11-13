@@ -78,78 +78,71 @@ sections:
         url: https://anybt.eth.limo/
         target: null
         id: 0_1189_anybt
-      - &ref_1
-        title: archive.is
+      - title: archive.is
         icon: favicon
         url: https://archive.is/
         id: 1_1189_archiveis
-      - &ref_2
+      - &ref_1
         title: BGP.Tools
         icon: favicon
         url: https://bgp.tools/
         id: 2_1189_bgptools
-      - &ref_3
-        title: Censys Search
+      - title: Censys Search
         icon: favicon
         url: https://search.censys.io/
         id: 3_1189_censyssearch
-      - &ref_4
+      - &ref_2
         title: Cover Your Tracks
         icon: favicon
         url: https://coveryourtracks.eff.org/
         id: 4_1189_coveryourtracks
-      - &ref_5
-        title: CyberChef
+      - title: CyberChef
         icon: favicon
         url: https://cyberchef.io/
         id: 5_1189_cyberchef
-      - &ref_6
-        title: DNS Checker
+      - title: DNS Checker
         icon: favicon
         url: https://dnschecker.org/
         id: 6_1189_dnschecker
-      - &ref_7
+      - &ref_3
         title: endoflife.date
         icon: https://endoflife.date/assets/favicon.svg
         url: https://endoflife.date/
-        id: 7_1189_homeendoflifedate
-      - &ref_8
-        title: Excalidraw
+        id: 7_1189_endoflifedate
+      - title: Excalidraw
         icon: favicon
         url: https://excalidraw.com/
         id: 8_1189_excalidraw
-      - &ref_9
+      - &ref_4
         title: Free Code Tools
         icon: favicon
         url: https://freecodetools.org/
         id: 9_1189_freecodetools
-      - &ref_10
-        title: Gofile
+      - title: Gofile
         icon: https://gofile.io/dist/img/favicon96.png
         url: https://gofile.io/
         id: 10_1189_gofile
-      - &ref_11
+      - &ref_5
         title: Image Tool
         icon: favicon
         url: https://imagestool.com/
         id: 11_1189_imagetool
-      - &ref_12
-        title: IPCheck.ing
+      - title: IPCheck.ing
         icon: favicon
         url: https://ipcheck.ing/
         id: 12_1189_ipchecking
-      - &ref_13
+      - &ref_6
         title: Kody Tools
         icon: favicon
         url: https://www.kodytools.com/
         id: 13_1189_kodytools
-      - &ref_14
+      - &ref_7
         title: Listen Notes
         description: The best podcast search engine
         icon: favicon
         url: https://www.listennotes.com/
         id: 14_1189_listennotes
-      - &ref_15
+      - &ref_8
         title: Markdown Tools
         description: >-
           A suite a helpful free tools for working with Markdown. MarkdownTools
@@ -157,41 +150,40 @@ sections:
         icon: favicon
         url: https://www.markdowntools.com/
         id: 15_1189_markdowntools
-      - &ref_16
+      - &ref_9
         title: Text Editor & Converter
         icon: favicon
         url: https://texteditor.com/
         id: 16_1189_texteditorconverter
-      - &ref_17
-        title: Openverse
+      - title: Openverse
         description: Openly Licensed Images, Audio and More
         icon: favicon
         url: https://openverse.org/
         id: 17_1189_openverse
-      - &ref_18
+      - &ref_10
         title: PageSpeed Insights
         icon: favicon
         url: https://pagespeed.web.dev/
         id: 18_1189_pagespeedinsights
-      - &ref_19
+      - &ref_11
         title: Pixabay
         description: 4.9 million+ Stunning Free Images to Use Anywhere
         icon: favicon
         url: https://pixabay.com/
         id: 19_1189_pixabay
-      - &ref_20
+      - &ref_12
         title: ping.pe
         description: Ping, mtr, dig & TCP port check
         icon: 🇵​
         url: https://ping.pe/
         id: 20_1189_pingpe
-      - &ref_21
+      - &ref_13
         title: river
         description: ' River is a visual connection engine.Clear your mind and surf laterally though image space.'
         icon: https://river.maxbittker.com/spiral3.png
         url: https://river.maxbittker.com/
         id: 21_1189_river
-      - &ref_22
+      - &ref_14
         title: Repology
         description: >-
           Repology monitors a huge number of package repositories and other
@@ -200,18 +192,18 @@ sections:
         icon: https://repology.org/static/repology.v1.ico
         url: https://repology.org/
         id: 22_1189_repology
-      - &ref_23
+      - &ref_15
         title: regex101
         description: build, test, and debug regex
         icon: favicon
         url: https://regex101.com/
         id: 23_1189_regex
-      - &ref_24
+      - &ref_16
         title: SSL Server Test
         icon: https://www.ssllabs.com/favicon.ico
         url: https://www.ssllabs.com/ssltest/
         id: 24_1189_sslservertest
-      - &ref_25
+      - &ref_17
         title: Sourcegraph
         description: >-
           Sourcegraph allows developers to rapidly search, write, and understand
@@ -220,45 +212,42 @@ sections:
         icon: favicon
         url: https://sourcegraph.com/search
         id: 25_1189_sourcegraph
-      - &ref_26
+      - &ref_18
         title: Speed Test | Cloudflare
         icon: favicon
         url: https://speed.cloudflare.com/
         id: 26_1189_speedtestcloudflare
-      - &ref_27
+      - &ref_19
         title: Speed Test | Fast
         icon: favicon
         url: https://fast.com/
         id: 27_1189_speedtestfast
-      - &ref_28
+      - &ref_20
         title: tldraw
         icon: favicon
         url: https://www.tldraw.com/
         id: 28_1189_tldraw
-      - &ref_29
+      - &ref_21
         title: unDraw
         description: Open source illustrations for any idea
         icon: favicon
         url: https://undraw.co/
         id: 29_1189_undraw
-      - &ref_30
-        title: Waifu2X!
+      - title: Waifu2X!
         description: Waifu2x image resizer
         icon: favicon
         url: https://waifu2x.booru.pics/
         id: 30_1189_waifux
-      - &ref_31
-        title: Web Check
+      - title: Web Check
         icon: favicon
         url: https://web-check.xyz/
         id: 31_1189_webcheck
-      - &ref_32
+      - &ref_22
         title: We OCR
         icon: favicon
         url: https://ocr.plantree.me/ocr
         id: 32_1189_weocr
-      - &ref_33
-        title: WHO.CX
+      - title: WHO.CX
         description: ''
         icon: favicon
         url: https://who.cx/
@@ -293,17 +282,542 @@ sections:
       - *ref_20
       - *ref_21
       - *ref_22
+  - name: network
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_23
+        title: ipdata
+        icon: favicon
+        url: https://ipdata.co/
+        target: newtab
+        id: 0_778_ipdata
+      - &ref_24
+        title: ipip
+        icon: favicon
+        url: https://tools.ipip.net/
+        target: newtab
+        id: 1_778_ipip
+      - title: ipleak
+        icon: favicon
+        url: https://ipleak.net/
+        target: newtab
+        id: 2_778_ipleak
+      - &ref_25
+        title: itdog
+        icon: favicon
+        url: https://www.itdog.cn/
+        target: newtab
+        id: 3_778_itdog
+      - title: ping.pe
+        icon: favicon
+        url: https://ping.pe/
+        target: newtab
+        id: 4_778_pingpe
+      - &ref_26
+        title: test-ipv6
+        icon: favicon
+        url: https://test-ipv6.com/
+        target: newtab
+        id: 5_778_testipv
+      - &ref_27
+        title: speedtest
+        icon: favicon
+        url: https://www.speedtest.cn/
+        target: newtab
+        id: 6_778_speedtest
+      - title: browser-check
+        icon: favicon
+        url: http://www.ip33.com/browser.html
+        target: newtab
+        id: 7_778_browsercheck
+      - title: browserleaks
+        icon: favicon
+        url: https://browserleaks.com/
+        target: newtab
+        id: 8_778_browserleaks
+      - title: dnschecker
+        icon: favicon
+        url: https://dnschecker.org/
+        target: newtab
+        id: 9_778_dnschecker
+    filteredItems:
       - *ref_23
       - *ref_24
       - *ref_25
       - *ref_26
       - *ref_27
+  - name: tool
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_28
+        title: stackoverflow
+        icon: favicon
+        url: https://stackoverflow.com/
+        target: newtab
+        id: 0_446_stackoverflow
+      - title: cpubenchmark
+        icon: favicon
+        url: https://www.cpubenchmark.net/
+        target: newtab
+        id: 1_446_cpubenchmark
+      - &ref_29
+        title: topcpu
+        icon: favicon
+        url: https://topcpu.net/
+        target: newtab
+        id: 2_446_topcpu
+      - title: freereceivesms
+        icon: favicon
+        url: https://www.freereceivesms.com/
+        target: newtab
+        id: 3_446_freereceivesms
+      - &ref_30
+        title: reddit
+        icon: favicon
+        url: https://www.reddit.com/
+        target: newtab
+        id: 4_446_reddit
+      - title: base64encode
+        icon: favicon
+        url: https://www.base64encode.org/
+        target: newtab
+        id: 5_446_baseencode
+      - &ref_31
+        title: pgtune
+        icon: favicon
+        url: https://pgtune.leopard.in.ua/
+        target: newtab
+        id: 6_446_pgtune
+      - title: picsmaller
+        icon: favicon
+        url: https://picsmaller.com/
+        target: newtab
+        id: 7_446_picsmaller
+      - title: exercism
+        icon: favicon
+        url: https://exercism.org/
+        target: newtab
+        id: 8_446_exercism
+    filteredItems:
       - *ref_28
       - *ref_29
       - *ref_30
       - *ref_31
+  - name: boring
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_32
+        title: stackblitz
+        icon: favicon
+        url: https://stackblitz.com/
+        target: newtab
+        id: 0_641_stackblitz
+      - title: emojicombos
+        icon: favicon
+        url: https://emojicombos.com/
+        target: newtab
+        id: 1_641_emojicombos
+      - title: cybermap
+        icon: favicon
+        url: https://cybermap.kaspersky.com/
+        target: newtab
+        id: 2_641_cybermap
+    filteredItems:
       - *ref_32
+  - name: food
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_33
+        title: civitai
+        icon: favicon
+        url: https://civitai.com/
+        target: newtab
+        id: 0_424_civitai
+      - title: unsplash
+        icon: favicon
+        url: https://unsplash.com/
+        target: newtab
+        id: 1_424_unsplash
+    filteredItems:
       - *ref_33
+  - name: AI
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: huggingface
+        icon: favicon
+        url: https://huggingface.co/
+        target: newtab
+        id: 0_138_huggingface
+      - &ref_34
+        title: civitai
+        icon: favicon
+        url: https://civitai.com/
+        target: newtab
+        id: 1_138_civitai
+    filteredItems:
+      - *ref_34
+  - name: mail
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: murena
+        icon: favicon
+        url: https://murena.io/apps/snappymail/
+        target: newtab
+        id: 0_419_murena
+      - &ref_35
+        title: disroot
+        icon: favicon
+        url: https://webmail.disroot.org/
+        target: newtab
+        id: 1_419_disroot
+      - title: relay
+        icon: favicon
+        url: https://relay.firefox.com/accounts/profile/
+        target: newtab
+        id: 2_419_relay
+    filteredItems:
+      - *ref_35
+  - name: host
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: cloudcone
+        icon: favicon
+        url: https://cloudcone.com/
+        target: newtab
+        id: 0_446_cloudcone
+      - &ref_36
+        title: hosteons
+        icon: favicon
+        url: https://hosteons.com/
+        target: newtab
+        id: 1_446_hosteons
+      - title: cloudcone
+        icon: favicon
+        url: https://app.cloudcone.com/
+        target: newtab
+        id: 2_446_cloudcone
+    filteredItems:
+      - *ref_36
+  - name: PaaS
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_37
+        title: netlify
+        description: Recommend,but may need ID card to authorized
+        icon: favicon
+        url: https://app.netlify.com/
+        target: newtab
+        id: 0_357_netlify
+      - title: fly
+        icon: favicon
+        url: https://fly.io/
+        target: newtab
+        id: 1_357_fly
+      - title: 4everland
+        icon: favicon
+        url: https://www.4everland.org/
+        target: newtab
+        id: 2_357_everland
+      - title: spheron
+        icon: favicon
+        url: https://app.spheron.network/
+        target: newtab
+        id: 3_357_spheron
+      - title: vercel
+        icon: favicon
+        url: https://vercel.com/
+        target: newtab
+        id: 4_357_vercel
+      - title: deno
+        icon: favicon
+        url: https://deno.com/
+        target: newtab
+        id: 5_357_deno
+      - title: cloudflare
+        icon: favicon
+        url: https://dash.cloudflare.com/
+        target: newtab
+        id: 6_357_cloudflare
+      - title: render
+        icon: favicon
+        url: https://render.com/
+        target: newtab
+        id: 7_357_render
+      - title: dappling
+        icon: favicon
+        url: https://dappling.network/
+        target: newtab
+        id: 8_357_dappling
+      - title: koyeb
+        icon: favicon
+        url: https://www.koyeb.com/
+        target: newtab
+        id: 9_357_koyeb
+      - title: codesandbox
+        icon: favicon
+        url: https://codesandbox.io/
+        target: newtab
+        id: 10_357_codesandbox
+      - &ref_38
+        title: glitch
+        icon: favicon
+        url: https://glitch.com/
+        target: newtab
+        id: 11_357_glitch
+    filteredItems:
+      - *ref_37
+      - *ref_38
+  - name: IaaS
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_39
+        title: storj
+        icon: favicon
+        url: https://www.storj.io/
+        target: newtab
+        id: 0_350_storj
+      - title: 4everland
+        icon: favicon
+        url: https://www.4everland.org/
+        target: newtab
+        id: 1_350_everland
+      - &ref_40
+        title: tebi
+        icon: favicon
+        url: https://tebi.io/
+        target: newtab
+        id: 2_350_tebi
+      - title: aws s3
+        icon: favicon
+        url: https://signin.aws.amazon.com/signin
+        target: newtab
+        id: 3_350_awss
+    filteredItems:
+      - *ref_39
+      - *ref_40
+  - name: DBaaS
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: aiven
+        icon: favicon
+        url: https://aiven.io/
+        target: newtab
+        id: 0_411_aiven
+      - title: mongodb
+        icon: favicon
+        url: https://www.mongodb.com/
+        target: newtab
+        id: 1_411_mongodb
+    filteredItems: []
+  - name: SaaS
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_41
+        title: netlify
+        icon: favicon
+        url: https://app.netlify.com/
+        target: newtab
+        id: 0_360_netlify
+      - title: cloudflare
+        icon: favicon
+        url: https://dash.cloudflare.com/
+        target: newtab
+        id: 1_360_cloudflare
+      - &ref_42
+        title: cloudfront
+        icon: favicon
+        url: https://signin.aws.amazon.com/signin
+        id: 2_360_cloudfront
+      - title: gcore
+        icon: favicon
+        url: https://gcore.com
+        target: newtab
+        id: 3_360_gcore
+      - title: '1984'
+        icon: favicon
+        url: https://1984.hosting/
+        target: newtab
+        id: 4_360_
+      - &ref_43
+        title: hostry
+        icon: favicon
+        url: https://hostry.com/
+        target: newtab
+        id: 5_360_hostry
+    filteredItems:
+      - *ref_41
+      - *ref_42
+      - *ref_43
+  - name: Packages
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: pacman
+        icon: favicon
+        url: https://archlinux.org/packages/
+        target: newtab
+        id: 0_799_pacman
+      - title: Aur
+        icon: favicon
+        url: https://aur.archlinux.org/packages
+        target: newtab
+        id: 1_799_aur
+      - title: nix
+        icon: favicon
+        url: https://nixos.org/
+        target: newtab
+        id: 2_799_nix
+      - &ref_44
+        title: nix-home-manager-options
+        icon: favicon
+        url: https://nix-community.github.io/home-manager/options.xhtml
+        target: newtab
+        id: 3_799_nixhomemanageroptions
+      - title: devbox-search
+        icon: favicon
+        url: https://www.nixhub.io/
+        target: newtab
+        id: 4_799_devboxsearch
+      - &ref_45
+        title: artifacthub
+        icon: favicon
+        url: https://artifacthub.io/
+        target: newtab
+        id: 5_799_artifacthub
+    filteredItems:
+      - *ref_44
+      - *ref_45
+  - name: ctf
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_46
+        title: ctf101
+        icon: favicon
+        url: https://ctf101.org/
+        target: newtab
+        id: 0_317_ctf
+      - &ref_47
+        title: CTF_Field_Guide
+        icon: favicon
+        url: https://trailofbits.github.io/ctf/
+        target: newtab
+        id: 1_317_ctffieldguide
+      - &ref_48
+        title: picoCTF
+        icon: favicon
+        url: https://picoctf.org/
+        target: newtab
+        id: 2_317_picoctf
+      - title: cyberaces
+        icon: favicon
+        url: https://www.sans.org/cyberaces/
+        target: newtab
+        id: 3_317_cyberaces
+      - &ref_49
+        title: overthewire
+        icon: favicon
+        url: https://overthewire.org/wargames/
+        target: newtab
+        id: 4_317_overthewire
+    filteredItems:
+      - *ref_46
+      - *ref_47
+      - *ref_48
+      - *ref_49
+  - name: Book
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_50
+        title: system-design-interview
+        icon: favicon
+        url: https://learning-guide.gitbook.io/system-design-interview
+        target: newtab
+        id: 0_395_systemdesigninterview
+      - &ref_51
+        title: 深入高可用系统原理与设计
+        icon: favicon
+        url: https://www.thebyte.com.cn/intro.html
+        target: newtab
+        id: 1_395_
+      - &ref_52
+        title: algorithms
+        icon: favicon
+        url: https://the-algorithms.com/
+        target: newtab
+        id: 2_395_algorithms
+    filteredItems:
+      - *ref_50
+      - *ref_51
+      - *ref_52
 pages:
   - name: ''
     path: ''
